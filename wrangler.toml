@@ -1,0 +1,13 @@
+name = "temp-mail-api"
+compatibility_date = "2023-05-15"
+main = "src/index.ts"
+workers_dev = true
+
+[vars]
+TEMP_MAIL_DOMAIN = "temp.example.com"  # Replace with your domain
+# API_KEY = "your-secret-key"  # Uncomment to enable API key protection
+
+[[kv_namespaces]]
+binding = "EMAIL_MAP"
+id = "EMAIL_MAP_ID"  # Replace with your KV namespace ID
+preview_id = "EMAIL_MAP_PREVIEW_ID"  # Replace with your preview KV namespace ID
