@@ -1,0 +1,19 @@
+{
+  "name": "temp-mail-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Temporary Email Service",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250726.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^4.26.0"
+  }
+}
